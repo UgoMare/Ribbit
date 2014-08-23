@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECD0A46A19A81BA900454264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD0A46919A81BA900454264 /* Foundation.framework */; };
+		ECD0A46C19A81BA900454264 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD0A46B19A81BA900454264 /* CoreGraphics.framework */; };
+		ECD0A46E19A81BA900454264 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD0A46D19A81BA900454264 /* UIKit.framework */; };
+		ECD0A47019A81BA900454264 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD0A46F19A81BA900454264 /* CoreData.framework */; };
+		ECD0A47619A81BA900454264 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECD0A47419A81BA900454264 /* InfoPlist.strings */; };
+		ECD0A47819A81BA900454264 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD0A47719A81BA900454264 /* main.m */; };
+		ECD0A47C19A81BA900454264 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD0A47B19A81BA900454264 /* AppDelegate.m */; };
+		ECD0A47F19A81BA900454264 /* Ribbit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECD0A47D19A81BA900454264 /* Ribbit.xcdatamodeld */; };
+		ECD0A48119A81BA900454264 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD0A48019A81BA900454264 /* Images.xcassets */; };
+		ECD0A48819A81BAA00454264 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD0A48719A81BAA00454264 /* XCTest.framework */; };
+		ECD0A48919A81BAA00454264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD0A46919A81BA900454264 /* Foundation.framework */; };
+		ECD0A48A19A81BAA00454264 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD0A46D19A81BA900454264 /* UIKit.framework */; };
+		ECD0A48B19A81BAA00454264 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD0A46F19A81BA900454264 /* CoreData.framework */; };
+		ECD0A49319A81BAA00454264 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECD0A49119A81BAA00454264 /* InfoPlist.strings */; };
+		ECD0A49519A81BAA00454264 /* RibbitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD0A49419A81BAA00454264 /* RibbitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECD0A48C19A81BAA00454264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECD0A45E19A81BA900454264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECD0A46519A81BA900454264;
+			remoteInfo = Ribbit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECD0A46619A81BA900454264 /* Ribbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ribbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD0A46919A81BA900454264 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECD0A46B19A81BA900454264 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECD0A46D19A81BA900454264 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECD0A46F19A81BA900454264 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ECD0A47319A81BA900454264 /* Ribbit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ribbit-Info.plist"; sourceTree = "<group>"; };
+		ECD0A47519A81BA900454264 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECD0A47719A81BA900454264 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECD0A47919A81BA900454264 /* Ribbit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ribbit-Prefix.pch"; sourceTree = "<group>"; };
+		ECD0A47A19A81BA900454264 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECD0A47B19A81BA900454264 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECD0A47E19A81BA900454264 /* Ribbit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ribbit.xcdatamodel; sourceTree = "<group>"; };
+		ECD0A48019A81BA900454264 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECD0A48619A81BAA00454264 /* RibbitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RibbitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD0A48719A81BAA00454264 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ECD0A49019A81BAA00454264 /* RibbitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RibbitTests-Info.plist"; sourceTree = "<group>"; };
+		ECD0A49219A81BAA00454264 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECD0A49419A81BAA00454264 /* RibbitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RibbitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECD0A46319A81BA900454264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD0A46C19A81BA900454264 /* CoreGraphics.framework in Frameworks */,
+				ECD0A47019A81BA900454264 /* CoreData.framework in Frameworks */,
+				ECD0A46E19A81BA900454264 /* UIKit.framework in Frameworks */,
+				ECD0A46A19A81BA900454264 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD0A48319A81BAA00454264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD0A48819A81BAA00454264 /* XCTest.framework in Frameworks */,
+				ECD0A48B19A81BAA00454264 /* CoreData.framework in Frameworks */,
+				ECD0A48A19A81BAA00454264 /* UIKit.framework in Frameworks */,
+				ECD0A48919A81BAA00454264 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECD0A45D19A81BA900454264 = {
+			isa = PBXGroup;
+			children = (
+				ECD0A47119A81BA900454264 /* Ribbit */,
+				ECD0A48E19A81BAA00454264 /* RibbitTests */,
+				ECD0A46819A81BA900454264 /* Frameworks */,
+				ECD0A46719A81BA900454264 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECD0A46719A81BA900454264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECD0A46619A81BA900454264 /* Ribbit.app */,
+				ECD0A48619A81BAA00454264 /* RibbitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECD0A46819A81BA900454264 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECD0A46919A81BA900454264 /* Foundation.framework */,
+				ECD0A46B19A81BA900454264 /* CoreGraphics.framework */,
+				ECD0A46D19A81BA900454264 /* UIKit.framework */,
+				ECD0A46F19A81BA900454264 /* CoreData.framework */,
+				ECD0A48719A81BAA00454264 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECD0A47119A81BA900454264 /* Ribbit */ = {
+			isa = PBXGroup;
+			children = (
+				ECD0A47A19A81BA900454264 /* AppDelegate.h */,
+				ECD0A47B19A81BA900454264 /* AppDelegate.m */,
+				ECD0A48019A81BA900454264 /* Images.xcassets */,
+				ECD0A47D19A81BA900454264 /* Ribbit.xcdatamodeld */,
+				ECD0A47219A81BA900454264 /* Supporting Files */,
+			);
+			path = Ribbit;
+			sourceTree = "<group>";
+		};
+		ECD0A47219A81BA900454264 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECD0A47319A81BA900454264 /* Ribbit-Info.plist */,
+				ECD0A47419A81BA900454264 /* InfoPlist.strings */,
+				ECD0A47719A81BA900454264 /* main.m */,
+				ECD0A47919A81BA900454264 /* Ribbit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECD0A48E19A81BAA00454264 /* RibbitTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECD0A49419A81BAA00454264 /* RibbitTests.m */,
+				ECD0A48F19A81BAA00454264 /* Supporting Files */,
+			);
+			path = RibbitTests;
+			sourceTree = "<group>";
+		};
+		ECD0A48F19A81BAA00454264 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECD0A49019A81BAA00454264 /* RibbitTests-Info.plist */,
+				ECD0A49119A81BAA00454264 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECD0A46519A81BA900454264 /* Ribbit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD0A49819A81BAA00454264 /* Build configuration list for PBXNativeTarget "Ribbit" */;
+			buildPhases = (
+				ECD0A46219A81BA900454264 /* Sources */,
+				ECD0A46319A81BA900454264 /* Frameworks */,
+				ECD0A46419A81BA900454264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ribbit;
+			productName = Ribbit;
+			productReference = ECD0A46619A81BA900454264 /* Ribbit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECD0A48519A81BAA00454264 /* RibbitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECD0A49B19A81BAA00454264 /* Build configuration list for PBXNativeTarget "RibbitTests" */;
+			buildPhases = (
+				ECD0A48219A81BAA00454264 /* Sources */,
+				ECD0A48319A81BAA00454264 /* Frameworks */,
+				ECD0A48419A81BAA00454264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECD0A48D19A81BAA00454264 /* PBXTargetDependency */,
+			);
+			name = RibbitTests;
+			productName = RibbitTests;
+			productReference = ECD0A48619A81BAA00454264 /* RibbitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECD0A45E19A81BA900454264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Ugo;
+				TargetAttributes = {
+					ECD0A48519A81BAA00454264 = {
+						TestTargetID = ECD0A46519A81BA900454264;
+					};
+				};
+			};
+			buildConfigurationList = ECD0A46119A81BA900454264 /* Build configuration list for PBXProject "Ribbit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECD0A45D19A81BA900454264;
+			productRefGroup = ECD0A46719A81BA900454264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECD0A46519A81BA900454264 /* Ribbit */,
+				ECD0A48519A81BAA00454264 /* RibbitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECD0A46419A81BA900454264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD0A47619A81BA900454264 /* InfoPlist.strings in Resources */,
+				ECD0A48119A81BA900454264 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD0A48419A81BAA00454264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD0A49319A81BAA00454264 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECD0A46219A81BA900454264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD0A47F19A81BA900454264 /* Ribbit.xcdatamodeld in Sources */,
+				ECD0A47C19A81BA900454264 /* AppDelegate.m in Sources */,
+				ECD0A47819A81BA900454264 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD0A48219A81BAA00454264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD0A49519A81BAA00454264 /* RibbitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECD0A48D19A81BAA00454264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECD0A46519A81BA900454264 /* Ribbit */;
+			targetProxy = ECD0A48C19A81BAA00454264 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECD0A47419A81BA900454264 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECD0A47519A81BA900454264 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECD0A49119A81BAA00454264 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECD0A49219A81BAA00454264 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECD0A49619A81BAA00454264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECD0A49719A81BAA00454264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECD0A49919A81BAA00454264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ribbit/Ribbit-Prefix.pch";
+				INFOPLIST_FILE = "Ribbit/Ribbit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECD0A49A19A81BAA00454264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ribbit/Ribbit-Prefix.pch";
+				INFOPLIST_FILE = "Ribbit/Ribbit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ECD0A49C19A81BAA00454264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ribbit.app/Ribbit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ribbit/Ribbit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RibbitTests/RibbitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ECD0A49D19A81BAA00454264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ribbit.app/Ribbit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ribbit/Ribbit-Prefix.pch";
+				INFOPLIST_FILE = "RibbitTests/RibbitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECD0A46119A81BA900454264 /* Build configuration list for PBXProject "Ribbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD0A49619A81BAA00454264 /* Debug */,
+				ECD0A49719A81BAA00454264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECD0A49819A81BAA00454264 /* Build configuration list for PBXNativeTarget "Ribbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD0A49919A81BAA00454264 /* Debug */,
+				ECD0A49A19A81BAA00454264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECD0A49B19A81BAA00454264 /* Build configuration list for PBXNativeTarget "RibbitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD0A49C19A81BAA00454264 /* Debug */,
+				ECD0A49D19A81BAA00454264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ECD0A47D19A81BA900454264 /* Ribbit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ECD0A47E19A81BA900454264 /* Ribbit.xcdatamodel */,
+			);
+			currentVersion = ECD0A47E19A81BA900454264 /* Ribbit.xcdatamodel */;
+			path = Ribbit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ECD0A45E19A81BA900454264 /* Project object */;
+}
